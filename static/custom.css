@@ -1,0 +1,133 @@
+/*##############################*/
+
+/*body css codes*/
+body {
+    background:orange;
+}
+
+
+/*##############################*/
+/*car summary css animation codes*/
+
+#cart_summary {
+    position:absolute;
+    top:680px;
+    left:470px;
+    border:10px solid orange;
+    padding:120px;
+    background:orange;
+    text-shadow:2px -3px black;
+    border-radius:50px;
+    animation:cart 5s linear infinite;
+}
+
+@keyframes cart{
+    0% {transform:rotate(0deg);background:linear-gradient(red,blue,red);}
+    50% {transform:rotate(20deg);background:linear-gradient(green,purple,red);}
+    75% {transform:rotate(-20deg);background:linear-gradient(brown,yellow,red);}
+    85% {transform:rotate(0deg);background:linear-gradient(aqua,coral,red);}
+    //100% {transform:rotateX(150deg);background:linear-gradient(red,blue,red);}
+}
+
+
+/*##############################*/
+/*Navbar css codes located in base.html*/
+
+#nav-home:hover {
+    transition:.25s;
+    transform:scale(.8);
+}
+#nav-search:hover {
+    transition:.25s;
+    transform:scale(.8);
+}
+#nav-about:hover {
+    transition:.25s;
+    transform:scale(.8);
+}
+
+#nav-profile:hover {
+    transition:.25s;
+    transform:scale(.8);
+}
+
+#nav-logout:hover {
+    transition:.25s;
+    transform:scale(.8);
+}
+
+#nav-login:hover {
+    transition:.25s;
+    transform:scale(.8);
+}
+
+#nav-register:hover {
+    transition:.25s;
+    transform:scale(.8);
+}
+
+
+/*##############################*/
+
+.form-control {
+    padding:20px;
+    background:lightgrey;
+}
+
+/*#search-submit {
+    background:orange;
+}*/
+
+#product_card1:hover {
+    transition:.25s;
+    transform:scale(1.1);
+}
+
+#product_card2:hover {
+    transition:.25s;
+    transform:scale(1.1);
+}
+
+#btn-update {
+    background:green;
+}
+
+/*##############################*/
+/*Footer css codes located in base.html*/
+.footer{
+    text-decoration:none;
+    color:white;
+}
+
+.footer-main {
+    position:relative;
+
+}
+
+.footer {
+    bottom:250px;
+}
+/*##############################*/
+
+/*##############################*/
+/*product page css codes*/
+
+#product-page {
+    position:absolute;
+    top:600px;
+    left:250px;
+    padding:30px 40px;
+    padding-top:40px;
+}
+/*##############################*/
+
+#card-border {
+
+    background:lightgreen;
+     padding-top:20px;
+     margin:50px;
+     border-radius:20px;
+}
+
+
+
